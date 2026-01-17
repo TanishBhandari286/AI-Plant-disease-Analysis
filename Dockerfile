@@ -71,88 +71,16 @@ COPY --from=frontend-builder /app/frontend/dist /usr/share/nginx/html
 
 # Configure nginx
 RUN rm /etc/nginx/sites-enabled/default 2>/dev/null || true
-COPY <<'EOF' /etc/nginx/conf.d/default.conf
-server {
-    listen 80;
-    server_name _;
-    
-    # Frontend static files
-    location / {
-        root /usr/share/nginx/html;
-        index index.html;
-        try_files $uri $uri/ /index.html;
-    }
-    
-    # Backend API proxy
-    location /api/ {
-        proxy_pass http://127.0.0.1:8000/;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_cache_bypass $http_upgrade;
-        proxy_read_timeout 300s;
-        proxy_connect_timeout 75s;
-    }
-    
-    # Health check endpoint
-    location /health {
-        proxy_pass http://127.0.0.1:8000/health;
-    }
-}
-EOF
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Configure supervisord
-COPY <<'EOF' /etc/supervisor/conf.d/supervisord.conf
-[supervisord]
-nodaemon=true
-user=root
-logfile=/var/log/supervisor/supervisord.log
-pidfile=/var/run/supervisord.pid
-
-[program:nginx]
-command=nginx -g "daemon off;"
-autostart=true
-autorestart=true
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
-stderr_logfile=/dev/stderr
-stderr_logfile_maxbytes=0
-
-[program:backend]
-command=uvicorn main:app --host 127.0.0.1 --port 8000
-directory=/app
-autostart=true
-autorestart=true
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
-stderr_logfile=/dev/stderr
-stderr_logfile_maxbytes=0
-environment=PYTHONUNBUFFERED=1
-EOF
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Create log directory
 RUN mkdir -p /var/log/supervisor
 
-# Create entrypoint script for handling credentials
-COPY <<'ENTRYPOINT' /app/entrypoint.sh
-#!/bin/bash
-set -e
-
-# Handle Google Cloud credentials from base64 encoded env var
-if [ -n "$GOOGLE_CLOUD_CREDENTIALS_BASE64" ]; then
-    echo "Setting up Google Cloud credentials..."
-    echo "$GOOGLE_CLOUD_CREDENTIALS_BASE64" | base64 -d > /app/credentials.json
-    export GOOGLE_APPLICATION_CREDENTIALS=/app/credentials.json
-fi
-
-# Start supervisord
-exec /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
-ENTRYPOINT
-
+# Copy and setup entrypoint script
+COPY entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 
 # Expose port
