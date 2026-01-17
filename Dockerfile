@@ -63,7 +63,7 @@ COPY --from=backend-builder /usr/local/lib/python3.12/site-packages /usr/local/l
 COPY --from=backend-builder /usr/local/bin /usr/local/bin
 
 # Copy backend application
-COPY backend/main.py backend/app ./
+COPY backend/main.py ./
 COPY backend/app ./app
 
 # Copy frontend build
