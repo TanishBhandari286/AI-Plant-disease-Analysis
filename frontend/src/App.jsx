@@ -1292,7 +1292,7 @@ const SkeletonCard = () => (
 // ============================================
 // CONFIGURATION
 // ============================================
-const API_URL = "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "/api";
 
 const STATES = {
 	LANDING: "LANDING",
@@ -2609,7 +2609,7 @@ export default function App() {
 			if (!err.response) {
 				if (err.message === "Network Error") {
 					errorMessage =
-						"Cannot connect to server. Please check:\n1. Backend is running on 192.168.18.178:8000\n2. Both devices are on same WiFi\n3. Firewall allows connections";
+						"Cannot connect to server. Please check your internet connection and try again.";
 				} else {
 					errorMessage = `Network error: ${err.message}`;
 				}
