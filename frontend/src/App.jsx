@@ -64,7 +64,7 @@ const translations = {
 		aboutUs: "About Us",
 		tryForFree: "Try for Free",
 
-		// Landing
+		// Landing Page
 		trustedBy: "Trusted by",
 		farmers: "Farmers Across India",
 		stopDisease: "Stop Crop Disease",
@@ -90,6 +90,61 @@ const translations = {
 		step2Desc: "Dual-agent AI with weather correlation",
 		step3: "Get Treatment",
 		step3Desc: "Specific medicine & preventive measures",
+		
+		// Extended Landing Page
+		heroTagline: "AI-Powered Crop Health",
+		heroTitle1: "Protect Your Crops",
+		heroTitle2: "Save Your Harvest",
+		heroSubtitle: "Get instant AI diagnosis for crop diseases. Upload a photo, receive treatment recommendations in seconds.",
+		startFreeAnalysis: "Start Free Analysis",
+		watchDemo: "Watch Demo",
+		freeForever: "Free forever • No signup required",
+		featuresTitle: "Why Farmers Trust AgroVision",
+		featuresSubtitle: "Advanced technology made simple for every farmer",
+		feature1Title: "Instant Diagnosis",
+		feature1Desc: "Get accurate disease identification within seconds using GPT-4 Vision AI",
+		feature2Title: "10+ Crops Supported",
+		feature2Desc: "Rice, Wheat, Tomato, Apple, Cotton, and many more crops covered",
+		feature3Title: "Treatment Plans",
+		feature3Desc: "Receive specific medicine recommendations and preventive measures",
+		feature4Title: "Weather Aware",
+		feature4Desc: "AI considers your local weather for more accurate diagnosis",
+		feature5Title: "Multilingual",
+		feature5Desc: "Available in Hindi, Tamil, Telugu, Bengali, Kannada, Marathi & more",
+		feature6Title: "Works Offline",
+		feature6Desc: "Access your previous diagnoses even without internet",
+		statsTitle: "Empowering Farmers Across India",
+		statFarmers: "Farmers Helped",
+		statDiagnoses: "Diagnoses Made",
+		statAccuracy: "Accuracy Rate",
+		statLanguages: "Languages",
+		testimonialsTitle: "What Farmers Say",
+		testimonial1: "AgroVision saved my tomato crop. The AI detected early blight before I could even see it clearly!",
+		testimonial1Author: "Ramesh Kumar",
+		testimonial1Location: "Farmer, Punjab",
+		testimonial2: "Finally an app that works in my language. The treatment suggestions are very accurate.",
+		testimonial2Author: "Lakshmi Devi",
+		testimonial2Location: "Farmer, Andhra Pradesh",
+		testimonial3: "I used to lose 30% of my crop to diseases. Now I catch them early and save money.",
+		testimonial3Author: "Suresh Patel",
+		testimonial3Location: "Farmer, Gujarat",
+		ctaTitle: "Ready to Protect Your Crops?",
+		ctaSubtitle: "Join thousands of farmers using AI to fight crop diseases",
+		ctaButton: "Start Free Diagnosis Now",
+		footerTagline: "AI-Powered Crop Protection",
+		footerDesc: "Empowering farmers with instant, accurate crop disease diagnosis.",
+		footerProduct: "Product",
+		footerFeatures: "Features",
+		footerHowItWorks: "How It Works",
+		footerPricing: "Pricing",
+		footerSupport: "Support",
+		footerHelp: "Help Center",
+		footerContact: "Contact Us",
+		footerFAQ: "FAQ",
+		footerLegal: "Legal",
+		footerPrivacy: "Privacy Policy",
+		footerTerms: "Terms of Service",
+		footerRights: "All rights reserved.",
 
 		// Form
 		newConsultation: "New Consultation",
@@ -312,6 +367,61 @@ const translations = {
 		step2Desc: "मौसम सहसंबंध के साथ Dual-agent AI",
 		step3: "उपचार प्राप्त करें",
 		step3Desc: "विशिष्ट दवा और निवारक उपाय",
+		
+		// Extended Landing Page (Hindi)
+		heroTagline: "AI-संचालित फसल स्वास्थ्य",
+		heroTitle1: "अपनी फसलों की रक्षा करें",
+		heroTitle2: "अपनी फसल बचाएं",
+		heroSubtitle: "फसल रोगों के लिए तुरंत AI निदान प्राप्त करें। फोटो अपलोड करें, सेकंडों में उपचार सुझाव पाएं।",
+		startFreeAnalysis: "मुफ्त विश्लेषण शुरू करें",
+		watchDemo: "डेमो देखें",
+		freeForever: "हमेशा मुफ्त • साइनअप की जरूरत नहीं",
+		featuresTitle: "किसान AgroVision पर क्यों भरोसा करते हैं",
+		featuresSubtitle: "हर किसान के लिए सरल बनाई गई उन्नत तकनीक",
+		feature1Title: "तुरंत निदान",
+		feature1Desc: "GPT-4 Vision AI का उपयोग करके सेकंडों में सटीक रोग पहचान प्राप्त करें",
+		feature2Title: "10+ फसलें समर्थित",
+		feature2Desc: "चावल, गेहूं, टमाटर, सेब, कपास और कई अन्य फसलें शामिल",
+		feature3Title: "उपचार योजनाएं",
+		feature3Desc: "विशिष्ट दवा सिफारिशें और निवारक उपाय प्राप्त करें",
+		feature4Title: "मौसम जागरूक",
+		feature4Desc: "अधिक सटीक निदान के लिए AI आपके स्थानीय मौसम पर विचार करता है",
+		feature5Title: "बहुभाषी",
+		feature5Desc: "हिंदी, तमिल, तेलुगु, बंगाली, कन्नड़, मराठी और अधिक में उपलब्ध",
+		feature6Title: "ऑफलाइन काम करता है",
+		feature6Desc: "इंटरनेट के बिना भी अपने पिछले निदान एक्सेस करें",
+		statsTitle: "पूरे भारत के किसानों को सशक्त बनाना",
+		statFarmers: "किसानों की मदद की",
+		statDiagnoses: "निदान किए गए",
+		statAccuracy: "सटीकता दर",
+		statLanguages: "भाषाएं",
+		testimonialsTitle: "किसान क्या कहते हैं",
+		testimonial1: "AgroVision ने मेरी टमाटर की फसल बचाई। AI ने अगेती झुलसा का पता लगाया इससे पहले कि मैं इसे स्पष्ट रूप से देख पाता!",
+		testimonial1Author: "रमेश कुमार",
+		testimonial1Location: "किसान, पंजाब",
+		testimonial2: "आखिरकार एक ऐप जो मेरी भाषा में काम करता है। उपचार सुझाव बहुत सटीक हैं।",
+		testimonial2Author: "लक्ष्मी देवी",
+		testimonial2Location: "किसान, आंध्र प्रदेश",
+		testimonial3: "मैं अपनी 30% फसल बीमारियों से खो देता था। अब मैं उन्हें जल्दी पकड़ लेता हूं और पैसे बचाता हूं।",
+		testimonial3Author: "सुरेश पटेल",
+		testimonial3Location: "किसान, गुजरात",
+		ctaTitle: "अपनी फसलों की रक्षा के लिए तैयार हैं?",
+		ctaSubtitle: "हजारों किसानों से जुड़ें जो फसल रोगों से लड़ने के लिए AI का उपयोग कर रहे हैं",
+		ctaButton: "अभी मुफ्त निदान शुरू करें",
+		footerTagline: "AI-संचालित फसल सुरक्षा",
+		footerDesc: "तुरंत, सटीक फसल रोग निदान के साथ किसानों को सशक्त बनाना।",
+		footerProduct: "उत्पाद",
+		footerFeatures: "विशेषताएं",
+		footerHowItWorks: "यह कैसे काम करता है",
+		footerPricing: "मूल्य निर्धारण",
+		footerSupport: "सहायता",
+		footerHelp: "सहायता केंद्र",
+		footerContact: "संपर्क करें",
+		footerFAQ: "सामान्य प्रश्न",
+		footerLegal: "कानूनी",
+		footerPrivacy: "गोपनीयता नीति",
+		footerTerms: "सेवा की शर्तें",
+		footerRights: "सर्वाधिकार सुरक्षित।",
 
 		// Form
 		newConsultation: "नया परामर्श",
@@ -1185,6 +1295,7 @@ const SkeletonCard = () => (
 const API_URL = "http://localhost:8000";
 
 const STATES = {
+	LANDING: "LANDING",
 	FORM: "FORM",
 	ANALYZING: "ANALYZING",
 	RESULT: "RESULT",
@@ -2044,8 +2155,8 @@ export default function App() {
 		});
 	};
 
-	// App State - Start directly at FORM (diagnosis page)
-	const [appState, setAppState] = useState(STATES.FORM);
+	// App State - Start at LANDING page
+	const [appState, setAppState] = useState(STATES.LANDING);
 	const [currentStep, setCurrentStep] = useState(0);
 	const [result, setResult] = useState(null);
 	const [error, setError] = useState(null);
@@ -4768,6 +4879,442 @@ export default function App() {
 	};
 
 	// ============================================
+	// LANDING PAGE RENDER
+	// ============================================
+	const renderLanding = () => {
+		return (
+			<motion.div
+				key="landing"
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0 }}
+				className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-emerald-50"
+			>
+				{/* Navbar */}
+				<Navbar
+					onTryFree={() => setAppState(STATES.FORM)}
+					t={t}
+					onLanguageClick={() => setShowLanguageSelector(true)}
+					currentLang={language}
+					onHome={() => setAppState(STATES.LANDING)}
+				/>
+
+				{/* Hero Section */}
+				<section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 overflow-hidden">
+					{/* Background Elements */}
+					<div className="absolute inset-0 overflow-hidden pointer-events-none">
+						<div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-emerald-200/30 to-teal-200/30 rounded-full blur-3xl" />
+						<div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-br from-amber-200/30 to-orange-200/30 rounded-full blur-3xl" />
+						<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-br from-violet-100/20 to-purple-100/20 rounded-full blur-3xl" />
+					</div>
+
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+						<div className="grid lg:grid-cols-2 gap-12 items-center">
+							{/* Left Content */}
+							<motion.div
+								initial={{ opacity: 0, x: -50 }}
+								animate={{ opacity: 1, x: 0 }}
+								transition={{ duration: 0.8 }}
+								className="text-center lg:text-left"
+							>
+								{/* Badge */}
+								<motion.div
+									initial={{ opacity: 0, y: 20 }}
+									animate={{ opacity: 1, y: 0 }}
+									transition={{ delay: 0.2 }}
+									className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-teal-100 border border-emerald-200/50 mb-6"
+								>
+									<Sparkles className="w-4 h-4 text-emerald-600" />
+									<span className="text-sm font-semibold text-emerald-700">{t.heroTagline || "AI-Powered Crop Health"}</span>
+								</motion.div>
+
+								{/* Main Heading */}
+								<h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 leading-tight mb-6">
+									<span className="block">{t.heroTitle1 || "Protect Your Crops"}</span>
+									<span className="block bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
+										{t.heroTitle2 || "Save Your Harvest"}
+									</span>
+								</h1>
+
+								{/* Subtitle */}
+								<p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-xl mx-auto lg:mx-0">
+									{t.heroSubtitle || "Get instant AI diagnosis for crop diseases. Upload a photo, receive treatment recommendations in seconds."}
+								</p>
+
+								{/* CTA Buttons */}
+								<div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6">
+									<motion.button
+										whileHover={{ scale: 1.02, y: -2 }}
+										whileTap={{ scale: 0.98 }}
+										onClick={() => setAppState(STATES.FORM)}
+										className="group px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-bold rounded-2xl shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all flex items-center justify-center gap-3"
+									>
+										<Camera className="w-5 h-5" />
+										{t.startFreeAnalysis || "Start Free Analysis"}
+										<ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+									</motion.button>
+									<motion.button
+										whileHover={{ scale: 1.02 }}
+										whileTap={{ scale: 0.98 }}
+										className="px-8 py-4 bg-white text-slate-700 font-semibold rounded-2xl border-2 border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/50 transition-all flex items-center justify-center gap-2"
+									>
+										<PlayCircle className="w-5 h-5 text-emerald-600" />
+										{t.watchDemo || "Watch Demo"}
+									</motion.button>
+								</div>
+
+								{/* Trust Indicators */}
+								<p className="text-sm text-slate-500 flex items-center justify-center lg:justify-start gap-2">
+									<CheckCircle className="w-4 h-4 text-emerald-500" />
+									{t.freeForever || "Free forever • No signup required"}
+								</p>
+							</motion.div>
+
+							{/* Right - Hero Image/Illustration */}
+							<motion.div
+								initial={{ opacity: 0, x: 50 }}
+								animate={{ opacity: 1, x: 0 }}
+								transition={{ duration: 0.8, delay: 0.2 }}
+								className="relative"
+							>
+								<div className="relative mx-auto w-full max-w-lg">
+									{/* Floating Cards */}
+									<motion.div
+										animate={{ y: [0, -10, 0] }}
+										transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+										className="absolute -top-4 -left-4 sm:-left-8 bg-white rounded-2xl shadow-xl p-4 z-10"
+									>
+										<div className="flex items-center gap-3">
+											<div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center">
+												<Leaf className="w-6 h-6 text-white" />
+											</div>
+											<div>
+												<p className="text-sm font-bold text-slate-800">{t.feature1Title || "Instant Diagnosis"}</p>
+												<p className="text-xs text-emerald-600 font-semibold">{t.accuracy || "95%+ Accuracy"}</p>
+											</div>
+										</div>
+									</motion.div>
+
+									<motion.div
+										animate={{ y: [0, 10, 0] }}
+										transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+										className="absolute -bottom-4 -right-4 sm:-right-8 bg-white rounded-2xl shadow-xl p-4 z-10"
+									>
+										<div className="flex items-center gap-3">
+											<div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+												<Globe className="w-6 h-6 text-white" />
+											</div>
+											<div>
+												<p className="text-sm font-bold text-slate-800">{t.feature5Title || "Multilingual"}</p>
+												<p className="text-xs text-amber-600 font-semibold">7+ Languages</p>
+											</div>
+										</div>
+									</motion.div>
+
+									{/* Main Image Container */}
+									<div className="relative aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-emerald-100 to-teal-100 shadow-2xl border border-emerald-200/50">
+										{/* Placeholder content - can be replaced with actual image */}
+										<div className="absolute inset-0 flex items-center justify-center">
+											<div className="text-center p-8">
+												<motion.div
+													animate={{ rotate: [0, 5, -5, 0] }}
+													transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+													className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl flex items-center justify-center shadow-lg"
+												>
+													<Microscope className="w-16 h-16 text-white" />
+												</motion.div>
+												<p className="text-2xl font-bold text-emerald-800 mb-2">🌾 🍅 🍎</p>
+												<p className="text-slate-600 font-medium">AI-Powered Analysis</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</motion.div>
+						</div>
+					</div>
+				</section>
+
+				{/* Stats Section */}
+				<section className="py-16 bg-white/50 backdrop-blur-sm border-y border-slate-200/50">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ duration: 0.6 }}
+							className="grid grid-cols-2 lg:grid-cols-4 gap-8"
+						>
+							{[
+								{ value: "50K+", label: t.statFarmers || "Farmers Helped", icon: User, color: "emerald" },
+								{ value: "200K+", label: t.statDiagnoses || "Diagnoses Made", icon: Microscope, color: "blue" },
+								{ value: "95%", label: t.statAccuracy || "Accuracy Rate", icon: CheckCircle, color: "amber" },
+								{ value: "7+", label: t.statLanguages || "Languages", icon: Globe, color: "violet" },
+							].map((stat, index) => (
+								<motion.div
+									key={index}
+									initial={{ opacity: 0, y: 20 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: index * 0.1 }}
+									className="text-center"
+								>
+									<div className={`w-14 h-14 mx-auto mb-4 rounded-2xl bg-${stat.color}-100 flex items-center justify-center`}>
+										<stat.icon className={`w-7 h-7 text-${stat.color}-600`} />
+									</div>
+									<p className="text-3xl sm:text-4xl font-black text-slate-900 mb-1">{stat.value}</p>
+									<p className="text-slate-600 font-medium">{stat.label}</p>
+								</motion.div>
+							))}
+						</motion.div>
+					</div>
+				</section>
+
+				{/* Features Section */}
+				<section className="py-20 sm:py-24">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className="text-center mb-16"
+						>
+							<h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
+								{t.featuresTitle || "Why Farmers Trust AgroVision"}
+							</h2>
+							<p className="text-lg text-slate-600 max-w-2xl mx-auto">
+								{t.featuresSubtitle || "Advanced technology made simple for every farmer"}
+							</p>
+						</motion.div>
+
+						<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+							{[
+								{ icon: Zap, title: t.feature1Title || "Instant Diagnosis", desc: t.feature1Desc || "Get accurate disease identification within seconds using GPT-4 Vision AI", color: "emerald" },
+								{ icon: Sprout, title: t.feature2Title || "10+ Crops Supported", desc: t.feature2Desc || "Rice, Wheat, Tomato, Apple, Cotton, and many more crops covered", color: "green" },
+								{ icon: FileText, title: t.feature3Title || "Treatment Plans", desc: t.feature3Desc || "Receive specific medicine recommendations and preventive measures", color: "blue" },
+								{ icon: CloudRain, title: t.feature4Title || "Weather Aware", desc: t.feature4Desc || "AI considers your local weather for more accurate diagnosis", color: "cyan" },
+								{ icon: Globe, title: t.feature5Title || "Multilingual", desc: t.feature5Desc || "Available in Hindi, Tamil, Telugu, Bengali, Kannada, Marathi & more", color: "amber" },
+								{ icon: Shield, title: t.feature6Title || "Works Offline", desc: t.feature6Desc || "Access your previous diagnoses even without internet", color: "violet" },
+							].map((feature, index) => (
+								<motion.div
+									key={index}
+									initial={{ opacity: 0, y: 30 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: index * 0.1 }}
+									whileHover={{ y: -5 }}
+									className="group p-6 sm:p-8 bg-white rounded-3xl shadow-lg shadow-slate-200/50 border border-slate-200/50 hover:shadow-xl hover:border-emerald-200/50 transition-all"
+								>
+									<div className={`w-14 h-14 rounded-2xl bg-gradient-to-br from-${feature.color}-400 to-${feature.color}-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform shadow-lg`}>
+										<feature.icon className="w-7 h-7 text-white" />
+									</div>
+									<h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
+									<p className="text-slate-600 leading-relaxed">{feature.desc}</p>
+								</motion.div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* How It Works Section */}
+				<section className="py-20 sm:py-24 bg-gradient-to-br from-emerald-50 to-teal-50">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className="text-center mb-16"
+						>
+							<h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
+								{t.howWorks || "How It Works"}
+							</h2>
+							<p className="text-lg text-slate-600 max-w-2xl mx-auto">
+								{t.howWorksDesc || "Our AI-powered system provides accurate crop disease diagnosis in three simple steps."}
+							</p>
+						</motion.div>
+
+						<div className="grid md:grid-cols-3 gap-8">
+							{[
+								{ step: "01", icon: Camera, title: t.step1Title || "Capture Photos", desc: t.step1Detail || "Take 3 clear photos of affected leaves from different angles" },
+								{ step: "02", icon: Cpu, title: t.step2Title || "AI Analysis", desc: t.step2Detail || "Our AI compares your images with scientific disease databases" },
+								{ step: "03", icon: FileText, title: t.step3Title || "Get Treatment", desc: t.step3Detail || "Receive instant diagnosis and actionable treatment plans" },
+							].map((item, index) => (
+								<motion.div
+									key={index}
+									initial={{ opacity: 0, y: 30 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: index * 0.15 }}
+									className="relative"
+								>
+									{/* Connector Line */}
+									{index < 2 && (
+										<div className="hidden md:block absolute top-16 left-[60%] w-full h-0.5 bg-gradient-to-r from-emerald-300 to-transparent" />
+									)}
+									
+									<div className="text-center">
+										<div className="relative inline-block mb-6">
+											<div className="w-20 h-20 rounded-3xl bg-white shadow-xl flex items-center justify-center border-2 border-emerald-200">
+												<item.icon className="w-10 h-10 text-emerald-600" />
+											</div>
+											<div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white font-bold text-sm shadow-lg">
+												{item.step}
+											</div>
+										</div>
+										<h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+										<p className="text-slate-600">{item.desc}</p>
+									</div>
+								</motion.div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* Testimonials Section */}
+				<section className="py-20 sm:py-24">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							className="text-center mb-16"
+						>
+							<h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
+								{t.testimonialsTitle || "What Farmers Say"}
+							</h2>
+						</motion.div>
+
+						<div className="grid md:grid-cols-3 gap-6 sm:gap-8">
+							{[
+								{ quote: t.testimonial1 || "AgroVision saved my tomato crop. The AI detected early blight before I could even see it clearly!", author: t.testimonial1Author || "Ramesh Kumar", location: t.testimonial1Location || "Farmer, Punjab" },
+								{ quote: t.testimonial2 || "Finally an app that works in my language. The treatment suggestions are very accurate.", author: t.testimonial2Author || "Lakshmi Devi", location: t.testimonial2Location || "Farmer, Andhra Pradesh" },
+								{ quote: t.testimonial3 || "I used to lose 30% of my crop to diseases. Now I catch them early and save money.", author: t.testimonial3Author || "Suresh Patel", location: t.testimonial3Location || "Farmer, Gujarat" },
+							].map((testimonial, index) => (
+								<motion.div
+									key={index}
+									initial={{ opacity: 0, y: 30 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: index * 0.1 }}
+									className="bg-white rounded-3xl p-6 sm:p-8 shadow-lg border border-slate-200/50"
+								>
+									<div className="flex gap-1 mb-4">
+										{[1, 2, 3, 4, 5].map((star) => (
+											<Star key={star} className="w-5 h-5 text-amber-400 fill-amber-400" />
+										))}
+									</div>
+									<p className="text-slate-700 mb-6 leading-relaxed">"{testimonial.quote}"</p>
+									<div className="flex items-center gap-3">
+										<div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center text-white font-bold">
+											{testimonial.author.charAt(0)}
+										</div>
+										<div>
+											<p className="font-bold text-slate-900">{testimonial.author}</p>
+											<p className="text-sm text-slate-500">{testimonial.location}</p>
+										</div>
+									</div>
+								</motion.div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* CTA Section */}
+				<section className="py-20 sm:py-24 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-600 relative overflow-hidden">
+					{/* Background Pattern */}
+					<div className="absolute inset-0 opacity-10">
+						<div className="absolute inset-0" style={{
+							backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+						}} />
+					</div>
+
+					<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
+						<motion.div
+							initial={{ opacity: 0, y: 30 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+						>
+							<h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-6">
+								{t.ctaTitle || "Ready to Protect Your Crops?"}
+							</h2>
+							<p className="text-xl text-emerald-100 mb-10 max-w-2xl mx-auto">
+								{t.ctaSubtitle || "Join thousands of farmers using AI to fight crop diseases"}
+							</p>
+							<motion.button
+								whileHover={{ scale: 1.05 }}
+								whileTap={{ scale: 0.95 }}
+								onClick={() => setAppState(STATES.FORM)}
+								className="px-10 py-5 bg-white text-emerald-700 font-bold text-lg rounded-2xl shadow-2xl hover:shadow-white/25 transition-all flex items-center gap-3 mx-auto"
+							>
+								<Camera className="w-6 h-6" />
+								{t.ctaButton || "Start Free Diagnosis Now"}
+								<ArrowRight className="w-6 h-6" />
+							</motion.button>
+						</motion.div>
+					</div>
+				</section>
+
+				{/* Footer */}
+				<footer className="bg-slate-900 text-white py-16">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<div className="grid md:grid-cols-4 gap-8 mb-12">
+							{/* Brand */}
+							<div className="md:col-span-1">
+								<div className="flex items-center gap-3 mb-4">
+									<div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
+										<Leaf className="w-6 h-6 text-white" />
+									</div>
+									<span className="text-xl font-bold">AgroVision</span>
+								</div>
+								<p className="text-slate-400 text-sm mb-4">
+									{t.footerDesc || "Empowering farmers with instant, accurate crop disease diagnosis."}
+								</p>
+							</div>
+
+							{/* Links */}
+							<div>
+								<h4 className="font-bold mb-4">{t.footerProduct || "Product"}</h4>
+								<ul className="space-y-2 text-slate-400 text-sm">
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerFeatures || "Features"}</a></li>
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerHowItWorks || "How It Works"}</a></li>
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerPricing || "Pricing"}</a></li>
+								</ul>
+							</div>
+
+							<div>
+								<h4 className="font-bold mb-4">{t.footerSupport || "Support"}</h4>
+								<ul className="space-y-2 text-slate-400 text-sm">
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerHelp || "Help Center"}</a></li>
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerContact || "Contact Us"}</a></li>
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerFAQ || "FAQ"}</a></li>
+								</ul>
+							</div>
+
+							<div>
+								<h4 className="font-bold mb-4">{t.footerLegal || "Legal"}</h4>
+								<ul className="space-y-2 text-slate-400 text-sm">
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerPrivacy || "Privacy Policy"}</a></li>
+									<li><a href="#" className="hover:text-white transition-colors">{t.footerTerms || "Terms of Service"}</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
+							<p>© {new Date().getFullYear()} AgroVision. {t.footerRights || "All rights reserved."}</p>
+						</div>
+					</div>
+				</footer>
+			</motion.div>
+		);
+	};
+
+	// Sparkles icon component (if not already imported)
+	const Sparkles = ({ className }) => (
+		<svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+			<path strokeLinecap="round" strokeLinejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+		</svg>
+	);
+
+	// ============================================
 	// MAIN RENDER
 	// ============================================
 	return (
@@ -4855,11 +5402,12 @@ export default function App() {
 					console.log(
 						"Current appState:",
 						appState,
-						"STATES.FORM:",
-						STATES.FORM,
+						"STATES.LANDING:",
+						STATES.LANDING,
 					);
 					return null;
 				})()}
+				{appState === STATES.LANDING && renderLanding()}
 				{appState === STATES.FORM && renderForm()}
 				{appState === STATES.ANALYZING && renderAnalyzing()}
 				{appState === STATES.RESULT && renderResult()}
